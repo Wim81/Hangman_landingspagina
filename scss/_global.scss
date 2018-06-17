@@ -1,3 +1,26 @@
+// fonts Hangman
+
+@font-face {
+    font-family: "WV_HM";
+    src: url("../font/ARBONNIE.ttf");
+}
+
+@font-face {
+    font-family: "WV_HM2";
+    src: url("../font/Remington-Noiseless.ttf");
+}
+
+@font-face {
+    font-family: "WV_HM_body";
+    src: url("../font/Khand-Light.ttf");
+}
+
+@font-face {
+    font-family: "WV_HM_btn";
+    src: url("../font/JosefinSans-Light.ttf");
+}
+
+
 // Global styling for this template
 html,
 body {
@@ -6,7 +29,7 @@ body {
 }
 
 body {
-    @include body-font;
+    @include hangman-font-body;
 }
 
 a {
@@ -35,7 +58,7 @@ h3,
 h4,
 h5,
 h6 {
-    @include heading-font;
+    @include hangman-font-1;
 }
 
 p {

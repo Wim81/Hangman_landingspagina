@@ -77,3 +77,19 @@
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
+@mixin hangman-font-1 {
+    font-family: 'WV_HM', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+@mixin hangman-font-2 {
+    font-family: 'WV_HM2', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+@mixin hangman-font-body {
+    font-family: 'WV_HM_body', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+@mixin hangman-font-btn {
+    font-family: 'WV_HM_btn', 'Helvetica', 'Arial', 'sans-serif';
+}

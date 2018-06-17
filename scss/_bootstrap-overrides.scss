@@ -14,6 +14,15 @@
     padding-left: 0;
 }
 
+.cta_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 360px;
+    margin: 0 auto;
+}
+
 .btn-outline {
     color: white;
     border: 1px solid;
@@ -29,11 +38,28 @@
 }
 
 .btn {
-    border-radius: 300px;
-    @include alt-font;
+    border-radius: 0px;
+    text-transform: uppercase;
+    @include hangman-font-btn;
 }
 
 .btn-xl {
-    font-size: 11px;
-    padding: 15px 45px;
+    font-size: 14px;
+    padding: 15px 10px 12px 10px;
+    margin: 5px;
+}
+
+@media (min-width: 560px) {
+    .cta_container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        max-width: none;
+        margin: 0;
+    }
+
+    .btn-xl {
+        padding: 15px 30px 12px 30px;
+
+    }
 }
