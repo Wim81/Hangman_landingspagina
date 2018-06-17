@@ -5,10 +5,18 @@ section.features {
         h2 {
             color: $theme-tertiary;
             margin-top: 0;
-            font-size: 80px;
+            font-size: 60px;
         }
         p {
             margin-bottom: 0;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .section-heading {
+            h2 {
+                font-size: 80px;
+            }
         }
     }
 
