@@ -313,11 +313,13 @@ section.download .badges .badge-link img {
 }
 
 section.features .section-heading {
-  margin-bottom: 100px;
+  margin-bottom: 0px;
 }
 
 section.features .section-heading h2 {
+  color: #218206;
   margin-top: 0;
+  font-size: 80px;
 }
 
 section.features .section-heading p {
@@ -326,6 +328,15 @@ section.features .section-heading p {
 
 section.features .my-auto {
   margin: 0 auto;
+}
+
+section.features .my-auto .container-fluid .row {
+  justify-content: stretch;
+}
+
+section.features .my-auto .container-fluid .row .col-lg-4 {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 section.features .device-container,
@@ -345,13 +356,20 @@ section.features .device-container {
 }
 
 section.features .feature-item {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 0px;
   text-align: center;
 }
 
 section.features .feature-item h3 {
   font-size: 30px;
+  color: #666600;
+}
+
+section.features .feature-item p {
+  color: #666600;
+  font-size: 24px;
+  line-height: 1.2;
 }
 
 section.features .feature-item i {
@@ -360,7 +378,7 @@ section.features .feature-item i {
   font-style: normal;
   display: block;
   margin-bottom: 15px;
-  background-color: #218206;
+  background-color: #dbaa16;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

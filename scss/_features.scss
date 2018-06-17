@@ -1,9 +1,11 @@
 // Styling for the features section
 section.features {
     .section-heading {
-        margin-bottom: 100px;
+        margin-bottom: 0px;
         h2 {
+            color: $theme-tertiary;
             margin-top: 0;
+            font-size: 80px;
         }
         p {
             margin-bottom: 0;
@@ -12,6 +14,16 @@ section.features {
 
     .my-auto {
         margin: 0 auto;
+        .container-fluid {
+            .row {
+                justify-content: stretch;
+
+                .col-lg-4 {
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+            }
+        }
     }
 
     .device-container,
@@ -26,19 +38,28 @@ section.features {
         }
     }
     .feature-item {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 20px;
+        padding-bottom: 0px;
         text-align: center;
+
         h3 {
             font-size: 30px;
+            color: $theme-secondary;
         }
+
+        p {
+            color: $theme-secondary;
+            font-size: 24px;
+            line-height: 1.2;
+        }
+
         i {
             font-size: 80px;
             font-family: FontAwesome;
             font-style: normal;
             display: block;
             margin-bottom: 15px;
-            background-color: $theme-tertiary;
+            background-color: $theme-primary;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
