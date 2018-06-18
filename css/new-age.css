@@ -611,7 +611,7 @@ footer .container-footer-left img {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: center;
   max-width: 360px;
   margin: 0 auto;
 }
@@ -640,15 +640,19 @@ footer .container-footer-left img {
   margin: 5px;
 }
 
+@media (min-width: 290px) {
+  .btn-xl {
+    padding: 15px 30px 12px 30px;
+  }
+}
+
 @media (min-width: 560px) {
   .cta_container {
     width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     max-width: none;
     margin: 0;
-  }
-  .btn-xl {
-    padding: 15px 30px 12px 30px;
   }
 }
