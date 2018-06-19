@@ -11,7 +11,7 @@ header.masthead {
     background: url('../img/bg_hangman.png'), -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
     background: url('../img/bg_hangman.png'), linear-gradient(to left, $theme-secondary, $theme-tertiary);
     background-repeat: no-repeat;
-    background-position: 50% 0%;
+    background-position: 50% calc(100% - 80vh), 100%;
     background-size: 150%, 100%;
     .header-content {
         max-width: 500px;
@@ -34,16 +34,8 @@ header.masthead {
         }
     }
 
-    @media (min-width: 540px) {
-        background-position: 50% -40%;
-    }
-
     @media (min-width: 640px) {
-        background-position: 50% -120%;
-    }
-
-    @media (min-width: 700px) {
-        background-position: center top;
+        background-position: 50% calc(100% - 40vh), 100%;
     }
 
     @media (min-width: 992px) {

@@ -183,7 +183,7 @@ header.masthead {
   background: url("../img/bg_hangman.png"), -webkit-linear-gradient(to left, #666600, #218206);
   background: url("../img/bg_hangman.png"), linear-gradient(to left, #666600, #218206);
   background-repeat: no-repeat;
-  background-position: 50% 0%;
+  background-position: 50% calc(100% - 80vh), 100%;
   background-size: 150%, 100%;
 }
 
@@ -209,21 +209,9 @@ header.masthead .device-container .screen img {
   border-radius: 3px;
 }
 
-@media (min-width: 540px) {
-  header.masthead {
-    background-position: 50% -40%;
-  }
-}
-
 @media (min-width: 640px) {
   header.masthead {
-    background-position: 50% -120%;
-  }
-}
-
-@media (min-width: 700px) {
-  header.masthead {
-    background-position: center top;
+    background-position: 50% calc(100% - 40vh), 100%;
   }
 }
 
