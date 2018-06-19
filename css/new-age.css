@@ -85,7 +85,7 @@ section h2 {
 }
 
 #mainNav:hover, #mainNav:focus {
-  background-color: #666600;
+  background-color: #218206;
 }
 
 #mainNav .navbar-brand {
@@ -95,7 +95,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-  color: #ad8611;
+  color: #f9ecc4;
 }
 
 #mainNav .navbar-toggler {

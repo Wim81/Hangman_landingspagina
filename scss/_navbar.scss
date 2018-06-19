@@ -4,7 +4,7 @@
     /*background-color: $theme-secondary;*/
     &:hover,
     &:focus {
-        background-color: $theme-secondary;
+        background-color: $theme-tertiary;
     }
     @include transition-all;
     @include heading-font;
@@ -14,7 +14,7 @@
         font-size: 32px;
         &:hover,
         &:focus {
-            color: darken($theme-primary, 10%);
+            color: lighten($theme-primary, 40%);
         }
     }
     .navbar-toggler {

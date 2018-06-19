@@ -40,3 +40,23 @@
   $(window).scroll(navbarCollapse);
 
 })(jQuery); // End of use strict
+
+$( document ).ready(function() {
+
+    $(".navbar").hover(function() {
+        if ($(".navbar-collapse").hasClass("show")) {
+            $(".navbar").css("background-color", "#218206");
+
+        } else {
+            $(".navbar").css("background-color", "#218206");
+        }
+    }, function() {
+        if ($(".navbar-collapse").hasClass("show")) {
+            $(".navbar").css("background-color", "#218206");
+
+        } else {
+            $(".navbar").css("background-color", "transparent");
+        }
+    });
+
+});
