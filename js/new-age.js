@@ -41,22 +41,27 @@
 
 })(jQuery); // End of use strict
 
-$( document ).ready(function() {
+$(document).ready(navbarcolor);
+$(window).on('resize', navbarcolor);
 
-    $(".navbar").hover(function() {
-        if ($(".navbar-collapse").hasClass("show")) {
-            $(".navbar").css("background-color", "#218206");
+function navbarcolor() {
 
-        } else {
-            $(".navbar").css("background-color", "#218206");
-        }
-    }, function() {
-        if ($(".navbar-collapse").hasClass("show")) {
-            $(".navbar").css("background-color", "#218206");
+    if ($(window).width() < 992) {
 
-        } else {
-            $(".navbar").css("background-color", "transparent");
-        }
-    });
+        $(".navbar").hover(function() {
+            if ($(".navbar-collapse").hasClass("show")) {
+                $(".navbar").css("background-color", "#218206");
 
-});
+            } else {
+                $(".navbar").css("background-color", "#218206");
+            }
+        }, function() {
+            if ($(".navbar-collapse").hasClass("show")) {
+                $(".navbar").css("background-color", "#218206");
+
+            } else {
+                $(".navbar").css("background-color", "transparent");
+            }
+        });
+    }
+}
