@@ -46,8 +46,6 @@ $(window).on('resize', navbarcolor);
 
 function navbarcolor() {
 
-    if ($(window).width() < 992) {
-
         $(".navbar").hover(function() {
             if ($(".navbar-collapse").hasClass("show")) {
                 $(".navbar").css("background-color", "#218206");
@@ -63,5 +61,4 @@ function navbarcolor() {
                 $(".navbar").css("background-color", "transparent");
             }
         });
-    }
 }
