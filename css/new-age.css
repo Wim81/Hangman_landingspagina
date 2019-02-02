@@ -649,3 +649,12 @@ footer .container-footer-left img {
     margin: 0;
   }
 }
+
+section.download .badges .badge-link {
+  display: none;
+}
+
+section.download .badges .temp-unavailable {
+  color: #800000;
+  font-weight: bold;
+}

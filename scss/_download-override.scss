@@ -1,0 +1,18 @@
+// Overrides for the download section (until we replace Google Play link
+section.download {
+
+    .badges {
+
+        .badge-link {
+            display: none;
+        }
+
+        .temp-unavailable {
+        color: $hangman-four;
+        font-weight: bold;
+        }
+    }
+    @media(min-width: 768px) {
+
+    }
+}
